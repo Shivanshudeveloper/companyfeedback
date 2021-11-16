@@ -38,6 +38,8 @@ bower_components
 build/Release
 
 # Dependency directories
+material-kit-react/node_modules/
+caraptin-dashboard-free/node_modules/
 node_modules/
 jspm_packages/
 
