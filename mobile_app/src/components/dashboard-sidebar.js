@@ -42,21 +42,21 @@ const items = [
     icon: (<CogIcon fontSize="small" />),
     title: 'Settings'
   },
-  /* {
-     href: '/login',
-     icon: (<LockIcon fontSize="small" />),
-     title: 'Login'
-   },
-   {
-     href: '/register',
-     icon: (<UserAddIcon fontSize="small" />),
-     title: 'Register'
-   },
-   {
-     href: '/404',
-     icon: (<XCircleIcon fontSize="small" />),
-     title: 'Error'
-   } */
+  {
+    href: '/login',
+    icon: (<LockIcon fontSize="small" />),
+    title: 'Login'
+  },
+  {
+    href: '/register',
+    icon: (<UserAddIcon fontSize="small" />),
+    title: 'Register'
+  },
+  {
+    href: '/404',
+    icon: (<XCircleIcon fontSize="small" />),
+    title: 'Error'
+  }
 ];
 
 export const DashboardSidebar = (props) => {
@@ -131,9 +131,7 @@ export const DashboardSidebar = (props) => {
                   color="neutral.400"
                   variant="body2"
                 >
-                  Your tier
-                  {' '}
-                  : Premium
+
                 </Typography>
               </div>
               <SelectorIcon

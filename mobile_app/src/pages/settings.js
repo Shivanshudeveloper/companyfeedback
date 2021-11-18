@@ -10,6 +10,8 @@ const Settings = () => (
       <title>
         Settings | Material Kit
       </title>
+      <link rel="manifest" href="/manifest.json" />
+
     </Head>
     <Box
       component="main"

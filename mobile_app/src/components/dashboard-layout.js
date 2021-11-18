@@ -3,6 +3,8 @@ import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { DashboardNavbar } from './dashboard-navbar';
 import { DashboardSidebar } from './dashboard-sidebar';
+import router from 'next/router';
+import Cookies from 'cookies'
 
 const DashboardLayoutRoot = styled('div')(({ theme }) => ({
   display: 'flex',
@@ -13,6 +15,7 @@ const DashboardLayoutRoot = styled('div')(({ theme }) => ({
     paddingLeft: 280
   }
 }));
+
 
 export const DashboardLayout = (props) => {
   const { children } = props;

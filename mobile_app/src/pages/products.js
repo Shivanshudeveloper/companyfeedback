@@ -11,6 +11,8 @@ const Products = () => (
       <title>
         Products | Material Kit
       </title>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     </Head>
     <Box
       component="main"

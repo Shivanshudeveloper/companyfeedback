@@ -8,6 +8,8 @@ class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="manifest" href="manifest.json" />
+
           <link
             rel="preconnect"
             href="https://fonts.googleapis.com"
@@ -51,8 +53,8 @@ class CustomDocument extends Document {
           />
         </Head>
         <body>
-        <Main />
-        <NextScript />
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );

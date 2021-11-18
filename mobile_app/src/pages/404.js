@@ -9,6 +9,8 @@ const NotFound = () => (
       <title>
         404 | Material Kit
       </title>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     </Head>
     <Box
       component="main"

@@ -16,6 +16,8 @@ const Dashboard = () => (
       <title>
         Dashboard | Material Kit
       </title>
+      <link rel="manifest" href="manifest.json" />
+
     </Head>
     <Box
       component="main"
@@ -36,7 +38,6 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <Budget />
           </Grid>
           <Grid
             item
@@ -45,7 +46,6 @@ const Dashboard = () => (
             sm={6}
             xs={12}
           >
-            <TotalCustomers />
           </Grid>
           <Grid
             item
@@ -54,7 +54,6 @@ const Dashboard = () => (
             sm={6}
             xs={12}
           >
-            <TasksProgress />
           </Grid>
           <Grid
             item
@@ -63,7 +62,6 @@ const Dashboard = () => (
             sm={6}
             xs={12}
           >
-            <TotalProfit sx={{ height: '100%' }} />
           </Grid>
           <Grid
             item
@@ -72,7 +70,6 @@ const Dashboard = () => (
             xl={9}
             xs={12}
           >
-            <Sales />
           </Grid>
           <Grid
             item
@@ -81,7 +78,6 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <TrafficByDevice sx={{ height: '100%' }} />
           </Grid>
           <Grid
             item
@@ -90,7 +86,6 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <LatestProducts sx={{ height: '100%' }} />
           </Grid>
           <Grid
             item
@@ -99,7 +94,6 @@ const Dashboard = () => (
             xl={9}
             xs={12}
           >
-            <LatestOrders />
           </Grid>
         </Grid>
       </Container>
